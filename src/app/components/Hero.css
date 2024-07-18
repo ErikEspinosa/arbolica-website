@@ -1,0 +1,25 @@
+@import "../globals.css";
+@import "../animations.css";
+
+.hero {
+    background: linear-gradient(45deg, rgba(var(--blue-rgb), 0.4), rgba(var(--blue-rgb), 0.4)), url("../../../public/backgrounds/hero.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0 50px 0;
+    animation: bg-zoom-out 4s ease-out;
+}
+.hero .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    animation: fade-in-scale 3s ease-in-out;
+}
+.hero .social {
+    display: flex;
+    justify-content: center;
+    animation: fade-in-scale 2s ease-in-out;
+}
+.hero .social > a {
+    margin: 0 10px;
+}

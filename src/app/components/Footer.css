@@ -1,0 +1,9 @@
+@import "../globals.css";
+
+.footer {
+    background-color: rgb(var(--bluegray-rgb));
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,13 @@
+@import "../globals.css";
+
+.link-primary {
+    display: inline-block;
+    letter-spacing: 0.2em;
+    border: 1px solid white;
+    padding: 0.7em 1.5em;
+    transition: all 0.4s ease-in-out;
+}
+.link-primary:hover {
+    background-color: white;
+    color: rgb(var(--blue-rgb));
+}
