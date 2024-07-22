@@ -29,7 +29,7 @@ export default function About() {
                     Y tú, ¿ya sabes qué tipo de mueble necesitas? 
                 </p>
                 <div className="links">
-                    <LinkPrimary href="mailto:hola@arbolica.com.mx" title="¡Escríbenos!" />
+                    <LinkPrimary href="mailto:hola@arbolica.mx" title="¡Escríbenos!" />
                 </div>
             </Container>
         </section>
