@@ -6,9 +6,28 @@ const kanit = Kanit({
   subsets: ["latin"] 
 });
 
+const title = "Arbólica"
+const description = "Muebles mexicanos de diseño"
+
 export const metadata = {
-  title: "Arbólica",
-  description: "Muebles de diseño",
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "https://arbolica.mx",
+    siteName: "Arbolica.mx",
+    images: [
+      {
+        url: "https://arbolica.mx/share.jpg",
+        width: 1200,
+        height: 630,
+      }
+    ],
+    locale: "es_MX",
+    type: "website",
+  }
+
 };
 
 export default function RootLayout({ children }) {
